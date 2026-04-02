@@ -71,10 +71,79 @@ The pipeline follows a structured MLOps workflow:
 
 ## 📂 Project Structure
 
-.
-├── data/ # Raw and processed datasets
-├── notebooks/ # Jupyter notebooks
-├── src/ # Source code (pipeline, models, utils)
-├── tests/ # Data validation tests
-├── README.md
+    .
+    ├── data/              # Raw and processed datasets
+    ├── notebooks/         # Jupyter notebooks
+    ├── src/               # Source code (pipeline, models, utils)
+    ├── tests/             # Data validation tests
+    ├── README.md
 
+---
+
+## ⚙️ Setup
+
+### 1. Clone the repository
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+
+### 2. Create virtual environment
+    python -m venv .venv
+
+### Activate environment:
+
+Windows:
+    .venv\Scripts\activate
+
+Linux/Mac:
+    source .venv/bin/activate
+
+### 3. Install dependencies
+    pip install -r requirements.txt
+
+### 4. Login to Weights & Biases
+    wandb login
+
+---
+
+## ▶️ Usage
+
+Run the notebook to execute the full pipeline:
+
+    jupyter notebook
+
+Or execute scripts from the `src/` folder.
+
+---
+
+## 📈 Results
+
+All experiments, metrics, and artifacts are tracked in **Weights & Biases**, enabling:
+
+- Full reproducibility  
+- Experiment comparison  
+- Model version control  
+
+---
+
+## 🤝 Contributing
+
+Feel free to open issues or submit pull requests to improve this project.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Moisés Lopes**  
+Computer Engineering Student | MLOps & AI Enthusiast  
+
+---
+
+## 💡 Final Note
+
+This project demonstrates how to apply **MLOps principles in practice**, making Machine Learning workflows more robust, reproducible, and production-ready.
