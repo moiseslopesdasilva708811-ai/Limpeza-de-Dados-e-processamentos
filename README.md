@@ -60,8 +60,10 @@ The pipeline follows a structured MLOps workflow:
 
 ## 🛠️ Technologies Used
 
-- Python
-- PyTorch
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-plain-wordmark.svg" />
+ 
 - Weights & Biases (W&B)
 - NumPy
 - Pandas
