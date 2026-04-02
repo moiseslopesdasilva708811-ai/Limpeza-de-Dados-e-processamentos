@@ -1,6 +1,0 @@
-2026-04-01 17:44:53,482 INFO    MainThread:14116 [wandb_init.py:setup_run_log_directory():717] Logging user logs to c:\Users\josem\OneDrive\Documentos\mlops-wandb-project\wandb\run-20260401_174453-mwwgmmas\logs\debug.log
-2026-04-01 17:44:53,484 INFO    MainThread:14116 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to c:\Users\josem\OneDrive\Documentos\mlops-wandb-project\wandb\run-20260401_174453-mwwgmmas\logs\debug-internal.log
-2026-04-01 17:44:53,485 INFO    MainThread:14116 [wandb_init.py:init():844] calling init triggers
-2026-04-01 17:44:53,486 INFO    MainThread:14116 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
-config: {'_wandb': {}}
-2026-04-01 17:44:53,491 INFO    MainThread:14116 [wandb_init.py:init():892] starting backend
