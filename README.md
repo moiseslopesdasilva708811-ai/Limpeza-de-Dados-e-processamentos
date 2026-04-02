@@ -71,3 +71,10 @@ The pipeline follows a structured MLOps workflow:
 
 ## 📂 Project Structure
 
+.
+├── data/ # Raw and processed datasets
+├── notebooks/ # Jupyter notebooks
+├── src/ # Source code (pipeline, models, utils)
+├── tests/ # Data validation tests
+├── README.md
+
